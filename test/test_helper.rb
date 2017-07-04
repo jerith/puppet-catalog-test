@@ -1,3 +1,6 @@
+# Let's not have thousands of lines of warning spam.
+$VERBOSE=nil
+
 $:.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
 require "test/unit"

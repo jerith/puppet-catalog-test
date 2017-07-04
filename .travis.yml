@@ -9,15 +9,12 @@ rvm:
   - 2.3.0
 
 env:
-  global:
-    - RUBYOPT=W0
-  matrix:
-    - PUPPET_VERSION=3.0.2
-    - PUPPET_VERSION=3.7.3
-    - PUPPET_VERSION=3.8.5
-    - PUPPET_VERSION=4.0.0
-    - PUPPET_VERSION=4.1.0
-    - PUPPET_VERSION=4.3.2
+  - PUPPET_VERSION=3.0.2
+  - PUPPET_VERSION=3.7.3
+  - PUPPET_VERSION=3.8.5
+  - PUPPET_VERSION=4.0.0
+  - PUPPET_VERSION=4.1.0
+  - PUPPET_VERSION=4.3.2
 
 matrix:
   exclude:
